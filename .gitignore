@@ -1,0 +1,38 @@
+# Binaries for the current project and sub-projects
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+out
+
+# Go modules
+# Dependencies (managed by Go Modules)
+/vendor/
+
+# Executables (compiled binaries)
+# For example, your main application binary
+# if your main package is in the root:
+/<your-project-name>
+# or if you build your main package into a 'bin' directory:
+/bin/
+
+# Test output
+/testdata/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# IDE specific files (e.g., JetBrains IDEs)
+.idea/
+*.iml
+
+# Environment variables files (if you use them)
+.env
